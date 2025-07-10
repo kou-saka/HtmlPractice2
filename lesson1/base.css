@@ -38,3 +38,28 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+.container {
+      width: 300px;
+      height: 100vh;
+      border: 1px solid black;
+      margin: 0.5%;
+    }
+
+.half {
+  display: flex;
+  height: 50%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.black-box {
+  background-color: black;
+  color: white
+}
+
+.white-box {
+  background-color: white;
+  color: black;
+}
