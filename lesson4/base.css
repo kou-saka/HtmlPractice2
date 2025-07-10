@@ -38,3 +38,54 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+.container {
+  margin       : 1% 20%;
+  height       : 90vh;
+  border: 1px solid black;
+  border-collapse: collapse; 
+  background-color: rgb(237, 243, 155);
+  display: flex;
+}
+
+.mid_box1, .mid_box2, .mid_box3{
+  width: 33.33%;
+  background-color: white;
+}
+
+.mid_box1{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid_box2{
+  background-color: blue;
+  display: flex;
+  justify-content: right;
+}
+.mid_box3{
+  background-color: green;
+  padding-top: 60vh;
+}
+
+.item1, .item2, .item3{
+  width        : 8vh;
+  height       : 8vh;
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 5%;
+}
+.item4, .item5, .item6{
+  width        : 8vh;
+  height       : 8vh;
+  border: 1px solid black;
+  background-color: white;
+  margin: 1% 2%;
+}
+.item7, .item8, .item9{
+  width        : 8vh;
+  height       : 8vh;
+  border: 1px solid black;
+  background-color: white;
+  margin: 3% 1%;
+}
