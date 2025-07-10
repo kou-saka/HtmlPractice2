@@ -38,3 +38,29 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+.box {
+  margin-left :35%;
+  width : 500px;
+  height: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  position: absolute;
+}
+
+.redbox {
+  margin : auto;
+  width : 160px;
+  height : 80px;
+  position :relative;
+  left: 70px;
+  background-color: #c30;  
+}
+
+.bluebox {
+  width : 160px;
+  height : 70px;
+  position : relative;
+  top: 100px;
+  left: 0%;
+  background-color: blue;
+}
