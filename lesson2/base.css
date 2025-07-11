@@ -38,29 +38,40 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+
+/* ケバブケースを使用する*/
+/* 色を#c30からredに変更する*/
+/* 絶対位置を使わずgrid-templateを使う */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 .box {
-  margin-left :35%;
+  display: grid;
   width : 500px;
   height: 500px;
   border: 1px solid black;
-  border-collapse: collapse;
-  position: absolute;
+  margin-top: 1%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.redbox {
-  margin : auto;
-  width : 160px;
-  height : 80px;
-  position :relative;
-  left: 70px;
-  background-color: #c30;  
+.red-box {
+  grid-column: 3;
+  grid-row: 1;
+  width : 120%;
+  height : 50%;
+  background-color: red;  
 }
 
-.bluebox {
-  width : 160px;
-  height : 70px;
-  position : relative;
-  top: 100px;
-  left: 0%;
+.blue-box {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: top;
+  width: 120%;
+  height : 50%;
   background-color: blue;
 }
